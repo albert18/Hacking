@@ -7,3 +7,7 @@ Internet protocol - 4 things you need
 -Running service - exposed service on the target
 -Vulnerability - weakness affecting the service
 -Exploit - Take advantage of the vulnerability
+
+******************CMD: ifconfig
+******************CMD: ping -c3 google.com
+
