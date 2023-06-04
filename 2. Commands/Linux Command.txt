@@ -1,6 +1,7 @@
 sudo 
 pwd = print directory
 whoami - username
+ping
 
 ========================================  File Navigating
 touch file.txt = create a file name.
@@ -20,9 +21,17 @@ rm {folderName} -r = to remove folder
 ========================================  Network
 ifconfig
 
+========================================  4. Reconnasissance
+ping erertech.com = ping website
+nglookup erertech.com = give IP address.
+whois erertech.com = Get information 
 
 
-========================================  
+
+
+
+
+
 ========================================  
 ========================================  
 ========================================  
