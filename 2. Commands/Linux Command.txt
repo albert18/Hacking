@@ -1,0 +1,29 @@
+sudo 
+pwd = print directory
+whoami - username
+
+========================================  File Navigating
+touch file.txt = create a file name.
+
+cat file.txt = To read
+echo {someText}  {fileName} = to createadd and read file.
+
+nano {fileName} = create a text editor.
+
+mkdir = create directory
+mv {fileName} {folderName} = to move file in the folder
+cp {OldFileName} {NewFileName}
+
+rm {fileName} = to remove certain file
+rm {folderName} -r = to remove folder
+
+========================================  Network
+ifconfig
+
+
+
+========================================  
+========================================  
+========================================  
+========================================  
+========================================  
