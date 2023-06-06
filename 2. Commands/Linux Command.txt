@@ -21,10 +21,29 @@ rm {folderName} -r = to remove folder
 ========================================  Network
 ifconfig
 
-========================================  4. Reconnasissance
+=======================================  4. Reconnasissance
 ping erertech.com = ping website
 nglookup erertech.com = give IP address.
 whois erertech.com = Get information 
+
+***Getting website information***
+whatweb 
+whatweb --help 
+whatweb erertech.com 
+whatweb -a 3 gaelforcejiujitsu.com -v 
+
+
+***Getting website information, range of IP address.***
+whatweb 192.168.1.1-192.168.1.255 --a 3 -v --no-errors
+
+TO SAVE IN FILE: 
+whatweb 192.168.1.1-192.168.1.255 --a 3 -v --no-errors --log-verbose=result
+
+
+
+
+
+
 
 
 
