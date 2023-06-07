@@ -81,8 +81,8 @@ Desktop > email-scraper > python3 {fileName}
 
 ========================================  5. Scanning
 
-
-
+*** Installing Vulnerable machine
+top 10 vulrabilties
 
 
 
