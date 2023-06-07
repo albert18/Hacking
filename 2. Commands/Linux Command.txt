@@ -83,6 +83,11 @@ Desktop > email-scraper > python3 {fileName}
 
 *** Installing Vulnerable machine
 top 10 vulrabilties
+https://information.rapid7.com/download-metasploitable-2017.html?LS=1631875&CS=web
+
+
+
+
 
 
 
