@@ -3,8 +3,9 @@ pwd = print directory
 whoami - username
 ping
 
-
-
+sudo arp -a
+sudo arp --help
+sudo netdiscover ---- CHECK DEVICES IN YOUR NETWORK.
 
 
 ========================================  File Navigating
@@ -81,13 +82,19 @@ Desktop > email-scraper > python3 {fileName}
 
 ========================================  5. Scanning
 
-*** Installing Vulnerable machine
+
+*** Installing Vulnerable machine(METASPLOITABLE) ***
 top 10 vulrabilties
 https://information.rapid7.com/download-metasploitable-2017.html?LS=1631875&CS=web
 
-
-
-
+sudo arp --help
+sudo netdiscover ---- CHECK DEVICES IN YOUR NETWORK.
+netstat -nr
+ 
+ *** NMAP ***
+nmap --help
+nmap {IPADDRESS}
+nmap {IPADDRESS}/24
 
 
 
