@@ -43,7 +43,7 @@ whatweb 192.168.1.1-192.168.1.255 --a 3 -v --no-errors
 TO SAVE IN FILE: 
 whatweb 192.168.1.1-192.168.1.255 --a 3 -v --no-errors --log-verbose=result
 
-***Gathering Email from domain***
+***2 ways Gathering Email from domain***
 1. Harvester (does not always work)
 
 theHarvester
