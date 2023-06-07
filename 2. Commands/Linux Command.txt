@@ -39,19 +39,44 @@ whatweb 192.168.1.1-192.168.1.255 --a 3 -v --no-errors
 TO SAVE IN FILE: 
 whatweb 192.168.1.1-192.168.1.255 --a 3 -v --no-errors --log-verbose=result
 
+***Gathering Email from domain***
+1. Harvester (does not always work)
+
+theHarvester
+theHarvester --help
+theHarvester -d {email} -b all
+
+2. Website
+hunter.io
+
+***How to download tools online***
+https://github.com/Tuhinshubhra/RED_HAWK
+
+git clone https://github.com/Tuhinshubhra/RED_HAWK
+cd RED_HAWK
+ls
+php rhawk.php
+fix
+
+***Finding Usernames with Sherlock***
+git clone https://github.com/sherlock-project/sherlock
+cd sherlock
+
+python3 sherlock.py
+or
+pip3 install sherlock.py
+
+Desktop > email-scraper > python3 {fileName}
+
+========================================  FACEBOOK
+>> git clone https://github.com/IAmBlackHacker/Facebook-BruteForce
+>> cd Facebook-BruteForce
+>> python3 -m pip install requests bs4
+>> python3 -m pip install mechanize
+>> python3 fb.py or python fb2.py
 
 
 
-
-
-
-
-
-
-
-
-
-========================================  
 ========================================  
 ========================================  
 ========================================  
