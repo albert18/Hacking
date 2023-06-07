@@ -3,6 +3,10 @@ pwd = print directory
 whoami - username
 ping
 
+
+
+
+
 ========================================  File Navigating
 touch file.txt = create a file name.
 
@@ -32,9 +36,9 @@ whatweb --help
 whatweb erertech.com 
 whatweb -a 3 gaelforcejiujitsu.com -v 
 
-
 ***Getting website information, range of IP address.***
 whatweb 192.168.1.1-192.168.1.255 --a 3 -v --no-errors
+
 
 TO SAVE IN FILE: 
 whatweb 192.168.1.1-192.168.1.255 --a 3 -v --no-errors --log-verbose=result
@@ -75,8 +79,17 @@ Desktop > email-scraper > python3 {fileName}
 >> python3 -m pip install mechanize
 >> python3 fb.py or python fb2.py
 
+========================================  5. Scanning
 
 
+
+
+
+
+
+========================================  
+========================================  
+========================================  
 ========================================  
 ========================================  
 ========================================  
