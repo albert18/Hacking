@@ -96,8 +96,17 @@ nmap --help
 nmap {IPADDRESS}
 nmap {IPADDRESS}/24
 
+*** Different Scans ***
+Synck Scan - Better options
+nmap -sS 192.168.1.168
 
+TCP established full connection
+nmap -sT 192.168.1.168
 
+nmap -sU 192.168.1.168
+
+"man" stands for manual
+man nmap
 
 ========================================  
 ========================================  
