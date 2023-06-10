@@ -73,7 +73,7 @@ pip3 install sherlock.py
 
 Desktop > email-scraper > python3 {fileName}
 
-========================================  FACEBOOK
+========================================  FACEBOOK or social media attack
 >> git clone https://github.com/IAmBlackHacker/Facebook-BruteForce
 >> cd Facebook-BruteForce
 >> python3 -m pip install requests bs4
@@ -88,6 +88,7 @@ top 10 vulrabilties
 https://information.rapid7.com/download-metasploitable-2017.html?LS=1631875&CS=web
 
 sudo arp --help
+sudo arp -a
 sudo netdiscover ---- CHECK DEVICES IN YOUR NETWORK.
 netstat -nr
  
@@ -113,6 +114,15 @@ man nmap
 sudo nmap -O 192.168.1.169
 
 sudo nmap -O 192.168.1.6 
+
+
+***Detecting Version of Service Running on an open port ***
+
+-Version
+sudo nmap -sV 192.168.1.169  ----- Deeply Scanning
+
+-Default intensity is 7
+sudo nmap -sV --version-intensity 9 192.168.1.169
 
 
 
