@@ -126,6 +126,13 @@ sudo nmap -A 9 192.168.1.169
 
 ***Filtering port ranve * Output of scan Results***
 
+--Alternative to netdiscover you can use this to check which host is up. But netdiscover is better.
+nmap -sn 192.168.1.1-255 
+
+nmap -p 80, 22, 100 192.168.1.169 - Scan range of port
+
+
+
 
 
 
