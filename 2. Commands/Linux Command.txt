@@ -108,6 +108,18 @@ nmap -sU 192.168.1.168
 "man" stands for manual
 man nmap
 
+*** Discovering Target operating system ***
+
+sudo nmap -O 192.168.1.169
+
+sudo nmap -O 192.168.1.6 
+
+
+
+
+
+
+
 
 
 
