@@ -129,7 +129,8 @@ sudo nmap -A 9 192.168.1.169
 --Alternative to netdiscover you can use this to check which host is up. But netdiscover is better.
 nmap -sn 192.168.1.1-255 
 
-nmap -p 80, 22, 100 192.168.1.169 - Scan range of port
+nmap -p 80, 22, 100 192.168.1.169 - Scan range of port OR
+nmap -p 1-65535 192.168.1.169
 
 
 
