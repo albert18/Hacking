@@ -125,23 +125,31 @@ sudo nmap -A 9 192.168.1.169
 
 
 ***Filtering port ranve * Output of scan Results***
-
 --Alternative to netdiscover you can use this to check which host is up. But netdiscover is better.
 nmap -sn 192.168.1.1-255 
 
 nmap -p 80, 22, 100 192.168.1.169 - Scan range of port OR
 nmap -p 1-65535 192.168.1.169
 
+nmap -sS 192.168.1.169 >> outputscan.text  <-- saving in a file
+nmap -oN MyName -sS 192.168.1.169  <-- saving in a file & output
 
 
+*** Using decoys and packet fragmentation ***
+
+-- Cause to scan tiny fragmentate packet, its hard to detecting from IDS
+sudo nmap -f 192.168.1.6  <-- 
+
+-- hiding your IP address and bypassing security, creating decoy - Flooding IP address creating random
+sudo nmap -D RND:5 192.168.1.175 -sS
+sudo nmap -D RND:5 192.168.1.6 -sS
+
+-- specific ID address, ME is your linux machine IP Address
+sudo nmap -D 192.168.1.2,ME 192.168.1.6 -sS
 
 
-
-
-
-
-
-
+*** Security Evasion Nmap Options *** not important but its good that exist
+sudo nmap -S 192.168.1.6 -Pn -e eth0 -g 7777
 
 
 ========================================  
