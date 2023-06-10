@@ -110,19 +110,22 @@ nmap -sU 192.168.1.168
 man nmap
 
 *** Discovering Target operating system ***
-
 sudo nmap -O 192.168.1.169
-
-sudo nmap -O 192.168.1.6 
 
 
 ***Detecting Version of Service Running on an open port ***
-
 -Version
 sudo nmap -sV 192.168.1.169  ----- Deeply Scanning
 
 -Default intensity is 7
 sudo nmap -sV --version-intensity 9 192.168.1.169
+
+-Aggression - ENABLES EVERYTHING - USE THIS <----
+sudo nmap -A 9 192.168.1.169
+
+
+***Filtering port ranve * Output of scan Results***
+
 
 
 
